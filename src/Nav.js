@@ -12,11 +12,17 @@ function Nav() {
         <Link to="/" style={navStyle}>
           <li>Home</li>
         </Link>
-        <Link to="/about" style={navStyle}>
-          <li>About</li>
+        <Link to="/lifecycle" style={navStyle}>
+          <li>ComponentLifeCycle</li>
         </Link>
         <Link to="/shop" style={navStyle}>
           <li>Shop</li>
+        </Link>
+        <Link to="/functionalStateless" style={navStyle}>
+          <li>FunctionalStateless</li>
+        </Link>
+        <Link to="/pureComponent" style={navStyle}>
+          <li>PureComponent</li>
         </Link>
       </ul>
     </nav>
